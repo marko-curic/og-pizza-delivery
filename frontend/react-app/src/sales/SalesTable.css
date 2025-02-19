@@ -1,0 +1,39 @@
+.coffee-row {
+    background-color: #d2b48c;
+}
+
+.beige-row {
+    background-color: #f5f5dc;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+th {
+    background-color: #a97c50;
+    color: white;
+}
+
+
+tfoot {
+    font-weight: bold;
+    background-color: #f5e1c5;
+}
+
+.total-label {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.total-value {
+    text-align: center;
+    padding-left: 10px;
+}

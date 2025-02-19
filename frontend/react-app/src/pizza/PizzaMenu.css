@@ -1,0 +1,65 @@
+.pizza-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.pizza-content {
+    width: 80%;
+    margin-top: 20px;
+}
+
+.pizza-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    padding: 0 40px;
+}
+
+.pizza-container {
+    position: relative;
+}
+
+.pizza-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.pizza-options label {
+    display: block;
+    margin: 5px;
+}
+
+.pizza-options select, .pizza-options input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.pizza-options input[type="checkbox"] {
+    margin-left: 5px;
+}
+
+.pizza-dropdown h2 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    text-align: center;
+}
+
+button {
+    background-color: #d9534f;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #c9302c;
+}
+

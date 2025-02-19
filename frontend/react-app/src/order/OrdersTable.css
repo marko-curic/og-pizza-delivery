@@ -1,0 +1,38 @@
+.coffee-row {
+    background-color: #d2b48c;
+}
+
+.beige-row {
+    background-color: #f5f5dc;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+th {
+    background-color: #a97c50;
+    color: white;
+}
+
+.remove-button {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.remove-button:hover {
+    background-color: #c0392b;
+}

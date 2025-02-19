@@ -1,0 +1,78 @@
+.register-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register-button {
+    background: none;
+    border: none;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.register-button:hover {
+    color: #d9534f;
+}
+
+.register-dropdown {
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    padding: 20px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    align-items: center;
+}
+
+.register-dropdown h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.register-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    background: beige;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.register-submit {
+    background: #d9534f;
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+    width: 100%;
+    max-width: 200px;
+}
+
+.register-submit:hover {
+    background: #c9302c; /* Darker red */
+}

@@ -1,0 +1,110 @@
+.pizza-dropdown {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    transform-origin: top;
+    transition: all 0.3s ease;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.pizza-dropdown.open {
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+}
+
+.pizza-dropdown h2 {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #333;
+}
+
+.pizza-dropdown .fields-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.pizza-dropdown .field {
+    flex: 1 1 45%;
+    min-width: 90px;
+    max-width: 120px;
+}
+
+.pizza-dropdown .css-2b097c-container {
+    width: 100%;
+}
+
+.pizza-dropdown .css-yk16xz-control {
+    border: 1px solid #ddd !important;
+    border-radius: 4px;
+    font-size: 12px;
+    min-height: 28px;
+}
+
+.pizza-dropdown select,
+.pizza-dropdown input {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+.pizza-dropdown button {
+    background: #ff6b35;
+    color: white;
+    border: none;
+    padding: 6px;
+    border-radius: 6px;
+    font-size: 12px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background 0.3s;
+    width: 80px;
+}
+
+.pizza-dropdown button:hover {
+    background: #e05a2b;
+}
+
+.pizza-dropdown button:nth-child(2) {
+    background: #ccc;
+    color: #333;
+}
+
+.pizza-dropdown button:nth-child(2):hover {
+    background: #bbb;
+}
+
+.pizza-dropdown .field {
+    flex: 1 1 45%;
+    min-width: 150px;
+    max-width: 500px;
+    margin-bottom: 5px;
+}
+
+.pizza-dropdown .field label {
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 5px;
+    display: block;
+    color: #333;
+}
+
+.pizza-dropdown .field select,
+.pizza-dropdown .field input {
+    width: 100%;
+    padding: 6px;
+    border-radius: 4px;
+    font-size: 12px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
