@@ -7,7 +7,6 @@ import {deleteOrder, fetchDraftOrder, submitOrder} from "../api/ordersApi";
 import {AuthContext} from "../context/AuthContext";
 import {Extras, Pizza, PizzaSize, Topping} from "../model/pizza";
 import {removeFromCart, updatePizza} from "../api/pizzaApi";
-import Select from "react-select";
 import EditPizzaModal from "./EditPizzaModal";
 
 function Cart() {

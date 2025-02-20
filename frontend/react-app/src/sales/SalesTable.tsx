@@ -1,5 +1,5 @@
 import "./SalesTable.css";
-import { Order } from "../model/order";
+import {Order} from "../model/order";
 import React from "react";
 import {Pizza} from "../model/pizza";
 

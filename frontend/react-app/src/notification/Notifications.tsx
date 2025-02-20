@@ -1,6 +1,6 @@
-import { useContext, useState } from "react";
-import { AuthContext } from "../context/AuthContext";
-import { Bell } from "lucide-react";
+import {useContext, useState} from "react";
+import {AuthContext} from "../context/AuthContext";
+import {Bell} from "lucide-react";
 import useWebSocket from "../webhook/useWebSocket";
 import "./Notifications.css";
 

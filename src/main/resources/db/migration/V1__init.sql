@@ -33,9 +33,3 @@ CREATE TABLE pizza_extras
     PRIMARY KEY (pizza_id, extras),
     FOREIGN KEY (pizza_id) REFERENCES pizzas (id) ON DELETE CASCADE
 );
-
-CREATE TABLE extras
-(
-    id   BIGSERIAL PRIMARY KEY,
-    name VARCHAR(100) UNIQUE NOT NULL
-);

@@ -46,7 +46,11 @@
     cursor: pointer;
 }
 
-.cart-table button:hover {
+.edit-button:hover {
+    background: #45a049;
+}
+
+.submit-order-button:hover {
     background: #45a049;
 }
 

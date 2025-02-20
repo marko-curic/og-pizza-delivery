@@ -1,7 +1,7 @@
-import { createContext, ReactNode, useEffect, useState } from "react";
-import { jwtDecode } from "jwt-decode";
-import { User } from "../model/user";
-import { findUserByUsername } from "../api/userApi";
+import {createContext, ReactNode, useEffect, useState} from "react";
+import {jwtDecode} from "jwt-decode";
+import {User} from "../model/user";
+import {findUserByUsername} from "../api/userApi";
 import Loader from "../loader/Loader";
 
 interface AuthContextType {
